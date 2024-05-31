@@ -10,4 +10,5 @@ import { DashboardComponent } from './dashboard/view/dashboard.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  readonly testValue = '$1 190,90'
 }
