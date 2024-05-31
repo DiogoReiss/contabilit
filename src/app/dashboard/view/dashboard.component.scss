@@ -1,0 +1,20 @@
+@use '../../../assets/styles/colors.scss' as color;
+
+.dashboard-container {
+  background-color: color.$black;
+  width: 73rem;
+  border-radius: 1em;
+  text-align: center;
+
+  .balance-title {
+    color: color.$white;
+    padding-top: 1em;
+    font-size: 2em;
+  }
+
+  .balance-amount {
+    color: color.$mint-green;
+    font-size: 3em;
+    padding: 2em
+  }
+}
